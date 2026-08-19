@@ -1,138 +1,216 @@
-### `[01]` — INDEX
+<div align="center">
 
-# Engineering modern systems
-### the kind you actually want to `maintain.`
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--                      OMER KHAN                          -->
+<!--         Backend · Infra · Data pipelines                -->
+<!-- ═══════════════════════════════════════════════════════ -->
 
-Backend systems, cloud infrastructure, and the unglamorous middle layer — built by someone who takes the work seriously and communicates like a human.
+# `> Omer Khan _`
+
+**Engineering modern systems — the kind you actually want to `maintain`.**
+
+Backend, cloud infra, and the unglamorous middle layer.
+Built quiet. Shipped often.
+
+<br/>
+
+![Availability](https://img.shields.io/badge/AVAILABILITY-1%2F3_slots_%28Q3%29-F5EFE0?style=for-the-badge&labelColor=B84A2F)
+![Focus](https://img.shields.io/badge/FOCUS-Backend_·_Infra_·_Data·_Frontend-EA4335?style=for-the-badge&labelColor=EA4335)
+[![Upwork](https://img.shields.io/badge/UPWORK-top_rated-108a00?style=for-the-badge&labelColor=108a00&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01ec187bbaed2fb47a)
+
+</div>
+
+<br/>
+
+---
+
+<div align="right"><sub><code>EST. 2023 · BUILT IN 2026</code></sub></div>
+
+## `[01]` — INDEX
 
 ```yaml
-~/the-omer-khan/status                                     LIVE
+~/the-omer-khan/status                                     ● LIVE
 ────────────────────────────────────────────────────────────────
 STACK           python · next · aws · gcp
 FOCUS           backend / infra / data pipelines
 TEAM_SIZE       1 engineer + support
-BASED_IN        remote / async · Islamabad, PK
-AVAILABILITY    taking on 1 client (Q4)
+BASED_IN        remote / async
+AVAILABILITY    taking on 1 client (Q3)
 LAST_SHIPPED    distributed phone-verify pipeline
 LAST_MIGRATION  DigitalOcean → AWS (ECS/RDS)
 ```
 
 <sub>↳ live status from the workshop</sub>
 
+<br/>
+
 ---
 
 <div align="right"><sub><code>CATEGORIZED, NOT A SKILL CLOUD</code></sub></div>
 
-### `[02]` — EXPERTISE
+## `[02]` — EXPERTISE
 
-## What I actually do.
+<table>
+<tr><td>
 
-```yaml
-01 / BACKEND                             where most of the work lives
-   Python · Flask · FastAPI · Celery · Node.js
+**`01 / BACKEND`** &nbsp;·&nbsp; <sub>where most of the work lives</sub>
 
-02 / INFRASTRUCTURE
-   AWS (ECS, EC2, RDS, Lambda, S3, VPC) · GCP (Cloud Run, Cloud Functions)
-   Docker · Kubernetes · Proxmox · Ansible
+[![Backend](https://skillicons.dev/icons?i=python,flask,fastapi,django,nodejs,express)](https://skillicons.dev)
 
-03 / DATA & ML
-   PostgreSQL · Redis · RAG pipelines · OpenAI / GPT integration
-   Vector stores · Local LLM inference (Ollama)
+</td></tr>
+<tr><td>
 
-04 / FRONTEND
-   React · Next.js · Tailwind · AG Grid Enterprise
+**`02 / INFRASTRUCTURE`**
 
-05 / INTEGRATIONS
-   Salesforce · HubSpot · Stripe · Slack · Discord · Google Drive
+[![Infra](https://skillicons.dev/icons?i=aws,gcp,firebase,cloudflare,docker,kubernetes,linux,bash,nginx)](https://skillicons.dev)
 
-06 / EMBEDDED & HARDWARE                 side practice — keeps the brain honest
-   ESP32 / Arduino · C++ · Sensor fusion · Blender
-```
+</td></tr>
+<tr><td>
+
+**`03 / DATA & ML`**
+
+[![Data](https://skillicons.dev/icons?i=postgres,redis,mongodb,supabase,sqlite)](https://skillicons.dev) &nbsp;·&nbsp; RAG pipelines · Vector stores · Ollama
+
+</td></tr>
+<tr><td>
+
+**`04 / FRONTEND`**
+
+[![Frontend](https://skillicons.dev/icons?i=react,nextjs,typescript,js,tailwind,figma)](https://skillicons.dev) &nbsp;·&nbsp; AG Grid Enterprise
+
+</td></tr>
+<tr><td>
+
+**`05 / Recent Developments`**
+
+[![Integrations](https://skillicons.dev/icons?i=bash,selenium,sklearn,raspberrypi,androidstudio,regex)](https://skillicons.dev) &nbsp;·&nbsp; HubSpot · Google Drive
+
+</td></tr>
+<tr><td>
+
+**`06 / EMBEDDED & HARDWARE`** &nbsp;·&nbsp; <sub>Side Projects, because engineering isn't just work</sub>
+
+[![Hardware](https://skillicons.dev/icons?i=cpp,arduino,blender)](https://skillicons.dev) &nbsp;·&nbsp; ESP32 · Sensor fusion · GRBL
+
+</td></tr>
+</table>
+
+<br/>
 
 ---
 
 <div align="right"><sub><code>THREE PROJECTS · CLICK ANY CARD</code></sub></div>
 
-### `[03]` — SELECTED WORK
-
-## Case studies.
+## `[03]` — SELECTED WORK
 
 <table>
 <tr>
 <td valign="top" width="33%">
 
-**`[01]`**
-
-### Sales Gamification
-<sub>Sales Gamification SaaS Platform</sub>
+### `[01]` Sales Gamification
+<sub>**B2B SaaS · Sales-ops product**</sub>
 
 Led the full cloud migration from DigitalOcean to AWS, splitting staging and production so releases stopped being scary.
 
-<sub>`B2B SAAS · SALES-OPS PRODUCT`</sub>
+`aws` `flask` `postgres`
 
 </td>
 <td valign="top" width="33%">
 
-**`[02]`**
-
-### Trade Compliance Platform
-<sub>Tariff Calculation & Customs Compliance</sub>
+### `[02]` Trade Compliance
+<sub>**Tariff calculation & customs**</sub>
 
 Rescued a legacy monolithic Flask codebase and restructured it into something a team could actually maintain.
 
-<sub>`IMPORTERS / CUSTOMS BROKERS`</sub>
+`flask` `react` `ag-grid`
 
 </td>
 <td valign="top" width="33%">
 
-**`[03]`**
+### `[03]` DataDrive
+<sub>**Distributed data infra**</sub>
 
-### DataDrive
-<sub>Distributed Data Processing Infrastructure</sub>
+Distributed phone-verification system replacing per-query API calls with 20 concurrent bots across 5 regions, with dramatic cost reduction.
 
-Built a distributed phone-verification system that replaced per-query API calls with 20 concurrent bots across 5 regions — dramatic cost reduction.
-
-<sub>`DATA-DRIVEN MARKETING OPERATIONS`</sub>
+`python` `celery` `aws`
 
 </td>
 </tr>
 </table>
 
+<br/>
+
 ---
 
 <div align="right"><sub><code>SIDE PROJECTS · HARDWARE · OPEN SOURCE</code></sub></div>
 
-### `[04]` — BUILT
+## `[04]` — BUILT
 
-## Things made for the love of it.
+<table>
+<tr>
+<td valign="top" width="50%">
 
-```yaml
-01 / HARDWARE                                       5 aircraft flown
-   Fixed-Wing Drone Flight Controller
-   Custom airframes plus a custom flight control system.
-   Hardware and software, end to end.
-   ↳ ESP32 · Arduino · C++ · 6-axis IMU · Blender
+**`0A / HARDWARE`** &nbsp;·&nbsp; <sub>5 aircraft flown</sub>
 
-02 / TOOLING
-   CSV Data Cleaner (Tkinter)
-   Batch MOV-to-MP4 Converter (CustomTkinter)
-   Small desktop utilities for the jobs no SaaS should own.
+**Fixed-Wing Drone Flight Controller**
+Custom airframes plus a custom flight control system. C++ control loops, 6-axis IMU sensor fusion, RF telemetry. Hardware and software, end to end.
 
-03 / WORKSHOP
-   Pen plotter · DIY CNC · Local LLM inference rig (RX 7800 XT)
-   Open-source utilities, tooling experiments, and the occasional
-   weekend rabbit hole — coming as they ship.
-```
+`esp32` `arduino` `c++` `blender`
+
+</td>
+<td valign="top" width="50%">
+
+**`0B / TOOLING`**
+
+**Desktop utilities**
+CSV Data Cleaner (Tkinter) · Batch MOV → MP4 Converter (CustomTkinter). Small local tools for the jobs no SaaS should own.
+
+`python` `tkinter` `ffmpeg`
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+
+**`03 / WORKSHOP`**
+
+Pen plotter · DIY CNC · Local LLM inference rig (RX 7800 XT running Qwen 2.5 14B via Ollama). Weekend rabbit holes.
+
+`grbl` `stepper` `ollama`
+
+</td>
+<td valign="top" width="50%">
+
+**`04 / IN PROGRESS`**
+
+Skoopless v2 · Kubernetes migration of production Docker Compose stacks · CKAD prep.
+
+`k8s` `ansible` `docker`
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ---
 
-### `[05]` — CONTACT
 
-```yaml
-site        kanasoftware.com
-github      github.com/The-Omer-Khan
-focus       backend · infra · data pipelines
-status      open to select projects
-```
+
+## `[05]` — CONTACT
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-kanasoftware.com-B84A2F?style=for-the-badge&labelColor=B84A2F&logo=safari&logoColor=white)](https://www.kanasoftware.com)
+[![Email](https://img.shields.io/badge/EMAIL-say_hi-EA4335?style=for-the-badge&labelColor=EA4335&logo=gmail&logoColor=white)](mailto:hello@kanasoftware.com)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-connect-0A66C2?style=for-the-badge&labelColor=0A66C2&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omer-khan-)
+[![Upwork](https://img.shields.io/badge/UPWORK-top_rated-108a00?style=for-the-badge&labelColor=108a00&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01ec187bbaed2fb47a)
+
+</div>
+
+
+</div>
+
+<br/>
 
 <div align="right"><sub><code>↳ built quiet · shipped often</code></sub></div>
